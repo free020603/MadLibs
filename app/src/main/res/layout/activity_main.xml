@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/adjectiveTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="-80dp"
+        android:layout_marginTop="60dp"
+        android:text="Adjective :"
+        android:textSize="30sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adjectiveEditText"
+        android:hint="adjective"
+        android:inputType="text"
+        android:textSize="30sp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-50dp"
+        />
+
+    <TextView
+        android:id="@+id/nounTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="noun :"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/nounTextEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-50dp"
+        android:hint="noun"
+        android:inputType="text"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/animalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Animal :"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/animalTextEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-50dp"
+        android:hint="animal"
+        android:inputType="text"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/numberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Number :"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/numberTextEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-50dp"
+        android:hint="number"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitButton"
+        android:text="SUBMIT"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="100dp"
+        android:onClick="sendTexts"/>
+
+
+
+</LinearLayout>
